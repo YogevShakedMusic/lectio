@@ -3,8 +3,93 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lectio — Free Lecture Transcription for Students</title>
-  <meta name="description" content="Turn your Zoom lecture recordings into text for free. No account needed, no hidden costs. Built by a student, for students." />
+  <title>Lectio — Free Lecture &amp; Zoom Transcription for Students</title>
+  <meta name="description" content="Free lecture transcription powered by Whisper AI. Turn Zoom recordings into clean text — Hebrew, English, Arabic and 90+ languages. No account, no install, 100% free." />
+  <meta name="keywords" content="free lecture transcription, transcribe zoom recording, whisper transcription free, free audio to text, transcribe lecture hebrew, lecture to text, audio transcription students, free audio transcription, zoom recording to text" />
+  <meta name="author" content="Yogev Shaked" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yogevshakedmusic.github.io/lectio/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://yogevshakedmusic.github.io/lectio/" />
+  <meta property="og:site_name" content="Lectio" />
+  <meta property="og:title" content="Lectio — Free Lecture &amp; Zoom Transcription for Students" />
+  <meta property="og:description" content="Free lecture transcription powered by Whisper AI. Turn Zoom recordings into clean text — Hebrew, English, Arabic and 90+ languages. No account, no install, 100% free." />
+  <meta property="og:image" content="https://yogevshakedmusic.github.io/lectio/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Lectio — Free Lecture &amp; Zoom Transcription for Students" />
+  <meta name="twitter:description" content="Free lecture transcription powered by Whisper AI. Turn Zoom recordings into clean text — Hebrew, English, Arabic and 90+ languages." />
+  <meta name="twitter:image" content="https://yogevshakedmusic.github.io/lectio/og-image.png" />
+
+  <!-- Structured data: WebApplication -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "name": "Lectio",
+    "url": "https://yogevshakedmusic.github.io/lectio/",
+    "description": "Free lecture transcription using Whisper AI. Transcribe Zoom recordings, audio files, and lectures into clean text. Supports Hebrew, Arabic, English and 90+ languages.",
+    "applicationCategory": "UtilitiesApplication",
+    "operatingSystem": "Web",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "author": {
+      "@type": "Person",
+      "name": "Yogev Shaked"
+    },
+    "keywords": "free lecture transcription, transcribe zoom recording, whisper transcription free, free audio to text, transcribe lecture hebrew"
+  }
+  </script>
+
+  <!-- Structured data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do I need a Google account?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes, Google Colab requires a free Google account. If you use Gmail or Google Drive (most students do), you're already set." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is my lecture recording private?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Your file is uploaded to your own Google Colab session — not to us. We never see it. When your Colab session ends, the file is deleted automatically." }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does transcription take?",
+        "acceptedAnswer": { "@type": "Answer", "text": "A 1-hour lecture takes 3–6 minutes on Colab's free GPU. The first run also installs the model (~2 minutes one-time setup)." }
+      },
+      {
+        "@type": "Question",
+        "name": "What's the file size limit?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Google Colab handles files up to ~2GB directly. For larger files, you can connect your Google Drive — instructions are in the notebook." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I use the transcript with ChatGPT or NotebookLM?",
+        "acceptedAnswer": { "@type": "Answer", "text": "That's exactly what it's built for. The output is a clean .txt file you can paste anywhere — ChatGPT, Claude, NotebookLM, Google Docs, wherever." }
+      },
+      {
+        "@type": "Question",
+        "name": "Why Colab instead of a regular website?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Running Whisper large-v2 requires a GPU, which costs real money to host. Colab gives every Google user free GPU time. This way the full-quality model stays free, forever — without charging anyone or running ads." }
+      }
+    ]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>

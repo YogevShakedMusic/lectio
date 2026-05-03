@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://yogevshakedmusic.github.io/lectio/sitemap.xml
