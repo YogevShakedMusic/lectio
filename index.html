@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lectio — Free Lecture &amp; Zoom Transcription for Students</title>
-  <meta name="description" content="Free lecture transcription tool. Turn any video or audio into a clean text transcript in minutes — 90+ languages including Hebrew, Arabic, English. No account, no install, 100% free." />
-  <meta name="keywords" content="free lecture transcription, transcribe zoom recording, whisper transcription free, free audio to text, transcribe lecture hebrew, lecture to text, audio transcription students, free audio transcription, zoom recording to text, audio to transcript free, lecture to notes, video to text free" />
+  <title>Lectio — Free Audio to Text &amp; Video Transcription Online</title>
+  <meta name="description" content="Free audio to text and video transcription online. Upload any MP4, MP3, WAV or Zoom recording — get a clean transcript in minutes. 90+ languages including Hebrew, Arabic, English. No account, no install, 100% free." />
+  <meta name="keywords" content="free audio to text, free video to text, free transcription online, transcribe audio free, transcribe video free, free lecture transcription, transcribe zoom recording, whisper transcription free, zoom recording to text, audio transcription online free, video to text online free, transcribe mp3 free, transcribe mp4 free, transcribe lecture hebrew, free audio transcription" />
   <meta name="author" content="Yogev Shaked" />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://yogevshakedmusic.github.io/lectio/" />
@@ -14,8 +14,8 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://yogevshakedmusic.github.io/lectio/" />
   <meta property="og:site_name" content="Lectio" />
-  <meta property="og:title" content="Lectio — Free Lecture &amp; Zoom Transcription for Students" />
-  <meta property="og:description" content="Free lecture transcription tool. Turn any video or audio into a clean text transcript — Hebrew, English, Arabic and 90+ languages. No account, 100% free." />
+  <meta property="og:title" content="Lectio — Free Audio to Text &amp; Video Transcription Online" />
+  <meta property="og:description" content="Free audio to text and video transcription online. Upload any Zoom recording, lecture, or audio file — get a clean transcript in minutes. 90+ languages. No account, 100% free." />
   <meta property="og:image" content="https://yogevshakedmusic.github.io/lectio/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -23,8 +23,8 @@
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Lectio — Free Lecture &amp; Zoom Transcription for Students" />
-  <meta name="twitter:description" content="Free lecture transcription tool. Turn any video or audio into a clean text transcript — Hebrew, English, Arabic and 90+ languages." />
+  <meta name="twitter:title" content="Lectio — Free Audio to Text &amp; Video Transcription Online" />
+  <meta name="twitter:description" content="Free audio to text and video transcription online. Upload any recording — get a clean transcript in minutes. 90+ languages. No account, 100% free." />
   <meta name="twitter:image" content="https://yogevshakedmusic.github.io/lectio/og-image.png" />
 
   <!-- Structured data: WebApplication -->
@@ -34,9 +34,18 @@
     "@type": "WebApplication",
     "name": "Lectio",
     "url": "https://yogevshakedmusic.github.io/lectio/",
-    "description": "Free lecture transcription tool using Whisper AI. Transcribe Zoom recordings, audio files, and lectures into clean text. Supports Hebrew, Arabic, English and 90+ languages.",
+    "description": "Free audio to text and video transcription online using Whisper AI. Upload any MP4, MP3, WAV or Zoom recording and get a clean transcript in minutes. Supports 90+ languages including Hebrew, Arabic and English.",
     "applicationCategory": "UtilitiesApplication",
     "operatingSystem": "Web",
+    "featureList": [
+      "Free audio to text transcription",
+      "Free video to text transcription",
+      "90+ languages supported",
+      "Zoom recording transcription",
+      "MP3, MP4, WAV, M4A support",
+      "No account required",
+      "Powered by Whisper AI"
+    ],
     "offers": {
       "@type": "Offer",
       "price": "0",
@@ -46,7 +55,45 @@
       "@type": "Person",
       "name": "Yogev Shaked"
     },
-    "keywords": "free lecture transcription, transcribe zoom recording, whisper transcription free, free audio to text, transcribe lecture hebrew, lecture to notes, audio to transcript free, video to text free"
+    "keywords": "free audio to text, free video to text, free transcription online, transcribe zoom recording, whisper transcription free, free lecture transcription"
+  }
+  </script>
+
+  <!-- Structured data: HowTo -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "HowTo",
+    "name": "How to Transcribe Audio or Video for Free",
+    "description": "Turn any audio or video file into a plain-text transcript for free using Lectio and Whisper AI — no account or install needed.",
+    "totalTime": "PT10M",
+    "tool": [{ "@type": "HowToTool", "name": "Free Google account" }],
+    "step": [
+      {
+        "@type": "HowToStep",
+        "position": "1",
+        "name": "Open the free notebook",
+        "text": "Click 'Start transcribing' to open Lectio in Google Colab — Google's free cloud service. No software to install."
+      },
+      {
+        "@type": "HowToStep",
+        "position": "2",
+        "name": "Click Run All",
+        "text": "One click sets everything up automatically. A file picker appears so you can choose your audio or video file."
+      },
+      {
+        "@type": "HowToStep",
+        "position": "3",
+        "name": "Wait a few minutes",
+        "text": "Whisper AI transcribes your file using Google's free GPU. A 1-hour recording takes about 3–6 minutes."
+      },
+      {
+        "@type": "HowToStep",
+        "position": "4",
+        "name": "Download your transcript",
+        "text": "A clean .txt file downloads automatically — ready to paste into ChatGPT, Claude, NotebookLM, or Google Docs."
+      }
+    ]
   }
   </script>
 
@@ -91,7 +138,11 @@
   </script>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://ko-fi.com">
+  <link rel="dns-prefetch" href="https://github.com">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
@@ -233,6 +284,7 @@
   <div class="nav-actions">
     <a href="#how" class="btn-ghost">How it works</a>
     <a href="#faq" class="btn-ghost">FAQ</a>
+    <a href="how-to-transcribe.html" class="btn-ghost">Guide</a>
     <a href="#feedback" class="btn-ghost">Feedback</a>
     <a href="https://ko-fi.com/yogevshaked" target="_blank" class="btn-donate">☕ Donate</a>
   </div>
@@ -240,8 +292,8 @@
 
 <section class="hero">
   <div class="hero-badge"><span></span> Free forever · no account needed</div>
-  <h1>Your lectures,<br><em>transcribed.</em></h1>
-  <p class="hero-sub">Upload any Zoom recording or audio file and get a clean text transcript in minutes — for free. Built by a student, for students.</p>
+  <h1>Free audio &amp; video<br><em>transcription online.</em></h1>
+  <p class="hero-sub">Upload any Zoom recording, lecture, or audio file and get a clean text transcript in minutes — free. No account, nothing to install.</p>
   <div class="hero-cta-row">
     <a href="https://colab.research.google.com/github/YogevShakedMusic/lectio/blob/main/lectio.ipynb" target="_blank" class="btn-primary">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="width:18px;height:18px"><polygon points="5 3 19 12 5 21 5 3"/></svg>
@@ -404,7 +456,7 @@
 
 <footer>
   <p>© 2025 Lectio · Made with ☕ by a student</p>
-  <p><a href="https://github.com/YogevShakedMusic/lectio" target="_blank">GitHub</a> · <a href="#donate">Donate</a></p>
+  <p><a href="https://github.com/YogevShakedMusic/lectio" target="_blank">GitHub</a> · <a href="#donate">Donate</a> · <a href="how-to-transcribe.html">Transcription Guide</a></p>
 </footer>
 
 </body>

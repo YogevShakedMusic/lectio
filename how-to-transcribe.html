@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Transcribe Audio and Video for Free (2025 Guide) — Lectio</title>
+  <meta name="description" content="Step-by-step guide to transcribing audio and video for free. Learn how to convert any MP3, MP4, WAV, or Zoom recording to text in minutes — no account or software needed." />
+  <meta name="keywords" content="how to transcribe audio for free, how to transcribe video for free, free transcription online, transcribe zoom recording free, audio to text free, video to text free, transcribe mp3 free, transcribe mp4 free, whisper transcription, free lecture transcription" />
+  <meta name="author" content="Yogev Shaked" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://yogevshakedmusic.github.io/lectio/how-to-transcribe.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://yogevshakedmusic.github.io/lectio/how-to-transcribe.html" />
+  <meta property="og:site_name" content="Lectio" />
+  <meta property="og:title" content="How to Transcribe Audio and Video for Free (2025 Guide)" />
+  <meta property="og:description" content="Step-by-step guide to transcribing audio and video for free. Convert any MP3, MP4, WAV, or Zoom recording to text in minutes — no account or software needed." />
+  <meta property="og:image" content="https://yogevshakedmusic.github.io/lectio/og-image.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <!-- Structured data: Article -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "How to Transcribe Audio and Video for Free (2025 Guide)",
+    "description": "A complete guide to converting audio and video files to text for free using Whisper AI and Google Colab — no account or software installation required.",
+    "datePublished": "2025-05-04",
+    "dateModified": "2025-05-04",
+    "author": {
+      "@type": "Person",
+      "name": "Yogev Shaked"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Lectio"
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "https://yogevshakedmusic.github.io/lectio/how-to-transcribe.html"
+    },
+    "keywords": "free audio to text, free video to text, transcribe audio free, transcribe zoom recording, whisper transcription"
+  }
+  </script>
+
+  <!-- Structured data: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Lectio",
+        "item": "https://yogevshakedmusic.github.io/lectio/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "How to Transcribe Audio and Video for Free",
+        "item": "https://yogevshakedmusic.github.io/lectio/how-to-transcribe.html"
+      }
+    ]
+  }
+  </script>
+
+  <!-- Structured data: FAQPage -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How can I transcribe audio for free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Use Lectio — a free tool powered by Whisper AI that runs on Google Colab. Upload any audio file (MP3, WAV, M4A, etc.), wait a few minutes, and download a clean text transcript. No account or software install needed beyond a free Google account." }
+      },
+      {
+        "@type": "Question",
+        "name": "How can I transcribe a video for free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Lectio accepts video files directly — MP4, MKV, MOV, AVI, WEBM and more. It extracts the audio automatically and transcribes it using Whisper AI. The whole process takes 3–6 minutes for a 1-hour video." }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I transcribe a Zoom recording for free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Zoom recordings are usually saved as MP4 files. Upload the MP4 directly to Lectio and it will produce a full text transcript within minutes." }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Whisper transcription really free?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Yes. Whisper is an open-source AI model from OpenAI. Lectio runs it on Google Colab's free GPU tier, so you pay nothing. The only requirement is a free Google account." }
+      },
+      {
+        "@type": "Question",
+        "name": "Which languages does free AI transcription support?",
+        "acceptedAnswer": { "@type": "Answer", "text": "Whisper supports 90+ languages including Hebrew, Arabic, English, Russian, French, Spanish, German, Japanese, and many more. It can also auto-detect the language of your recording." }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet"></noscript>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --ink: #0e0f11; --ink-soft: #3d4046; --ink-muted: #8a8f9a;
+      --paper: #faf9f6; --paper-warm: #f3f0e8; --paper-border: #e5e1d8;
+      --green: #1a6b45; --green-light: #d6efe3; --green-bright: #22c975;
+      --amber: #c47d0e; --amber-light: #fef3dc;
+    }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Outfit', sans-serif; background: var(--paper); color: var(--ink); line-height: 1.7; overflow-x: hidden; }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 1rem 2.5rem;
+      background: rgba(250,249,246,0.95); backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--paper-border);
+    }
+    .nav-logo { display: flex; align-items: center; gap: 0.6rem; text-decoration: none; }
+    .nav-logo-mark { width: 34px; height: 34px; background: var(--ink); border-radius: 9px; display: flex; align-items: center; justify-content: center; }
+    .nav-logo-mark svg { width: 18px; height: 18px; }
+    .nav-logo-text { font-family: 'Instrument Serif', serif; font-size: 1.3rem; color: var(--ink); }
+    .nav-actions { display: flex; gap: 0.75rem; align-items: center; }
+    .btn-ghost { padding: 0.45rem 1rem; border: 1px solid var(--paper-border); border-radius: 8px; background: transparent; color: var(--ink-soft); font-family: 'Outfit', sans-serif; font-size: 0.85rem; cursor: pointer; text-decoration: none; transition: all 0.15s; }
+    .btn-ghost:hover { background: var(--paper-warm); color: var(--ink); }
+    .btn-primary { display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.75rem 1.75rem; background: var(--ink); color: white; border: none; border-radius: 12px; font-family: 'Outfit', sans-serif; font-size: 0.95rem; font-weight: 500; cursor: pointer; text-decoration: none; transition: all 0.2s; box-shadow: 0 4px 16px rgba(14,15,17,.15); }
+    .btn-primary:hover { background: #1e2028; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(14,15,17,.2); }
+    .btn-donate { padding: 0.45rem 1.1rem; border: none; border-radius: 8px; background: var(--amber-light); color: var(--amber); font-family: 'Outfit', sans-serif; font-size: 0.85rem; font-weight: 500; cursor: pointer; text-decoration: none; transition: all 0.15s; }
+    .btn-donate:hover { background: #fde8a8; }
+
+    /* Article layout */
+    .article-hero { padding: 4rem 2rem 3rem; text-align: center; border-bottom: 1px solid var(--paper-border); background: white; }
+    .breadcrumb { font-size: 0.78rem; color: var(--ink-muted); margin-bottom: 1.5rem; }
+    .breadcrumb a { color: var(--ink-muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--ink); }
+    .article-tag { display: inline-block; background: var(--green-light); color: var(--green); font-size: 0.72rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; padding: 0.3rem 0.8rem; border-radius: 20px; margin-bottom: 1.25rem; }
+    .article-hero h1 { font-family: 'Instrument Serif', serif; font-size: clamp(2rem, 5vw, 3.5rem); line-height: 1.1; letter-spacing: -0.03em; max-width: 780px; margin: 0 auto 1.25rem; color: var(--ink); }
+    .article-hero h1 em { font-style: italic; color: var(--green); }
+    .article-meta { font-size: 0.82rem; color: var(--ink-muted); font-weight: 300; }
+
+    .article-wrap { max-width: 740px; margin: 0 auto; padding: 3.5rem 2rem 5rem; }
+
+    /* Prose styles */
+    .prose p { font-size: 1rem; color: var(--ink-soft); font-weight: 300; line-height: 1.75; margin-bottom: 1.25rem; }
+    .prose p strong { color: var(--ink); font-weight: 500; }
+    .prose h2 { font-family: 'Instrument Serif', serif; font-size: clamp(1.5rem, 3vw, 2.1rem); letter-spacing: -0.02em; color: var(--ink); margin: 3rem 0 1rem; line-height: 1.2; }
+    .prose h3 { font-size: 1rem; font-weight: 600; color: var(--ink); margin: 1.75rem 0 0.5rem; }
+    .prose ul, .prose ol { padding-left: 1.4rem; margin-bottom: 1.25rem; }
+    .prose li { font-size: 1rem; color: var(--ink-soft); font-weight: 300; line-height: 1.7; margin-bottom: 0.4rem; }
+    .prose li strong { color: var(--ink); font-weight: 500; }
+    .prose a { color: var(--green); text-decoration: underline; text-underline-offset: 3px; }
+    .prose a:hover { color: #145536; }
+    .prose hr { border: none; border-top: 1px solid var(--paper-border); margin: 2.5rem 0; }
+
+    /* Callout box */
+    .callout { background: var(--green-light); border-left: 3px solid var(--green); border-radius: 0 12px 12px 0; padding: 1.25rem 1.5rem; margin: 1.75rem 0; }
+    .callout p { color: var(--green); font-weight: 400; margin: 0; }
+    .callout p strong { color: #134d32; }
+
+    /* Step cards */
+    .steps-list { list-style: none; padding: 0; margin: 1.5rem 0 1.25rem; display: flex; flex-direction: column; gap: 1rem; }
+    .step-item { display: flex; gap: 1.25rem; align-items: flex-start; background: white; border: 1px solid var(--paper-border); border-radius: 14px; padding: 1.25rem 1.5rem; }
+    .step-num { flex-shrink: 0; width: 32px; height: 32px; background: var(--ink); color: white; border-radius: 8px; display: flex; align-items: center; justify-content: center; font-weight: 600; font-size: 0.85rem; }
+    .step-item h3 { font-size: 0.95rem; font-weight: 600; color: var(--ink); margin: 0 0 0.3rem; }
+    .step-item p { font-size: 0.87rem; color: var(--ink-soft); font-weight: 300; line-height: 1.6; margin: 0; }
+
+    /* Format pills */
+    .pill-row { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0 1.25rem; }
+    .pill { padding: 0.35rem 0.8rem; background: white; border: 1px solid var(--paper-border); border-radius: 20px; font-size: 0.8rem; font-weight: 500; color: var(--ink-soft); }
+
+    /* FAQ */
+    .faq-item { border-bottom: 1px solid var(--paper-border); padding: 1.25rem 0; }
+    .faq-q { font-weight: 500; font-size: 0.95rem; color: var(--ink); margin-bottom: 0.4rem; }
+    .faq-a { font-size: 0.88rem; color: var(--ink-soft); font-weight: 300; line-height: 1.65; }
+
+    /* CTA block */
+    .cta-block { background: var(--ink); border-radius: 20px; padding: 3rem 2.5rem; text-align: center; margin-top: 4rem; }
+    .cta-block h2 { font-family: 'Instrument Serif', serif; font-size: clamp(1.75rem, 4vw, 2.5rem); color: white; letter-spacing: -0.03em; margin-bottom: 0.75rem; line-height: 1.15; }
+    .cta-block h2 em { font-style: italic; color: var(--green-bright); }
+    .cta-block p { color: rgba(255,255,255,.5); font-weight: 300; margin-bottom: 2rem; font-size: 0.95rem; }
+
+    footer { background: var(--ink); border-top: 1px solid rgba(255,255,255,.07); padding: 1.5rem 2.5rem; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    footer p { font-size: 0.78rem; color: rgba(255,255,255,.25); font-weight: 300; }
+    footer a { color: rgba(255,255,255,.35); text-decoration: none; }
+    footer a:hover { color: rgba(255,255,255,.6); }
+
+    @media (max-width: 640px) { nav{padding:.85rem 1.25rem} .nav-actions .btn-ghost{display:none} .article-hero{padding:2.5rem 1.25rem 2rem} .article-wrap{padding:2.5rem 1.25rem 4rem} .cta-block{padding:2rem 1.5rem} }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">
+    <div class="nav-logo-mark">
+      <svg viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2.2" stroke-linecap="round">
+        <path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/>
+      </svg>
+    </div>
+    <span class="nav-logo-text">Lectio</span>
+  </a>
+  <div class="nav-actions">
+    <a href="index.html#how" class="btn-ghost">How it works</a>
+    <a href="index.html#faq" class="btn-ghost">FAQ</a>
+    <a href="https://ko-fi.com/yogevshaked" target="_blank" class="btn-donate">☕ Donate</a>
+  </div>
+</nav>
+
+<header class="article-hero">
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="index.html">Lectio</a> &rsaquo; How to Transcribe Audio &amp; Video for Free
+  </nav>
+  <span class="article-tag">Guide · 2025</span>
+  <h1>How to transcribe audio &amp; video<br><em>for free</em></h1>
+  <p class="article-meta">By Yogev Shaked &middot; 5 min read &middot; Updated May 2025</p>
+</header>
+
+<main class="article-wrap">
+  <div class="prose">
+
+    <p>Whether you recorded a university lecture, a Zoom meeting, a podcast, or a voice memo — turning it into searchable, editable text opens up a lot of possibilities. You can summarize it with AI, create study notes, share it with colleagues, or just search for a specific moment without re-watching the whole thing.</p>
+    <p>This guide covers the fastest, most accurate <strong>free</strong> way to do it in 2025, using a tool called Lectio that runs entirely on Google's infrastructure — so you pay nothing and install nothing.</p>
+
+    <hr>
+
+    <h2>Why transcribe audio and video?</h2>
+    <p>Here are the most common reasons people want a transcript of a recording:</p>
+    <ul>
+      <li><strong>Study notes from lectures.</strong> Skim a 2-hour lecture in 10 minutes. Search for exactly the part you need.</li>
+      <li><strong>AI summarization.</strong> Paste the transcript into ChatGPT, Claude, or NotebookLM and get a structured summary, flashcards, or answers to specific questions.</li>
+      <li><strong>Zoom and meeting recordings.</strong> Turn a long team call into a searchable document with action items.</li>
+      <li><strong>Accessibility.</strong> Make audio content readable for people who are deaf, hard of hearing, or just prefer reading.</li>
+      <li><strong>Content repurposing.</strong> Turn a podcast episode or interview into a blog post or newsletter.</li>
+    </ul>
+
+    <hr>
+
+    <h2>The best free method: Whisper AI</h2>
+    <p>There are several free transcription tools available, but most have significant limitations — short time limits, file size caps, watermarked output, or poor accuracy on accented speech or non-English languages.</p>
+    <p><strong>Whisper</strong>, released by OpenAI as an open-source model, is a different story. It consistently ranks among the most accurate transcription models available, handles 90+ languages including Hebrew and Arabic, and is completely free to use. The catch: running it well requires a GPU, which most computers don't have.</p>
+    <p>That's where <strong>Lectio</strong> comes in. It runs Whisper on Google Colab — Google's free cloud computing service that gives every Google user access to a free GPU. No subscription, no credit card, no install.</p>
+
+    <div class="callout">
+      <p><strong>How free is it, really?</strong> Google Colab's free tier provides enough GPU time for most students and professionals. A 1-hour recording uses roughly 3–6 minutes of GPU time. You'd need to transcribe hundreds of hours of audio before hitting any limits.</p>
+    </div>
+
+    <hr>
+
+    <h2>How to transcribe audio or video for free — step by step</h2>
+    <p>This works for any audio or video file: MP3, MP4, WAV, M4A, Zoom recordings, Google Meet recordings, voice memos, podcasts, and more. All you need is a free Google account.</p>
+
+    <ul class="steps-list">
+      <li class="step-item">
+        <div class="step-num">1</div>
+        <div>
+          <h3>Open the free notebook</h3>
+          <p>Click the "Start transcribing" button on <a href="index.html">Lectio's homepage</a>. This opens a notebook on Google Colab — think of it as a free cloud computer that does all the work for you. No software to download or install.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <div class="step-num">2</div>
+        <div>
+          <h3>Click "Run All"</h3>
+          <p>At the top of the Colab page, click <strong>Runtime → Run All</strong> (or press Ctrl+F9). This installs Whisper on the cloud machine — it only takes about 2 minutes the first time.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <div class="step-num">3</div>
+        <div>
+          <h3>Upload your file</h3>
+          <p>A file picker will appear. Select your audio or video file from your computer. Files up to about 2 GB work fine. For larger recordings, there are instructions in the notebook for connecting Google Drive.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <div class="step-num">4</div>
+        <div>
+          <h3>Wait a few minutes</h3>
+          <p>Whisper transcribes your file using Google's free GPU. A 1-hour recording takes roughly 3–6 minutes. You'll see a progress indicator as it runs.</p>
+        </div>
+      </li>
+      <li class="step-item">
+        <div class="step-num">5</div>
+        <div>
+          <h3>Download your transcript</h3>
+          <p>A clean <strong>.txt file</strong> downloads automatically when transcription finishes. Open it in any text editor, paste it into Google Docs, or drop it straight into an AI tool.</p>
+        </div>
+      </li>
+    </ul>
+
+    <hr>
+
+    <h2>What file formats can you transcribe?</h2>
+    <p>Lectio accepts virtually any common audio or video format:</p>
+
+    <h3>Video files</h3>
+    <div class="pill-row">
+      <span class="pill">MP4</span><span class="pill">MKV</span><span class="pill">MOV</span><span class="pill">AVI</span><span class="pill">WEBM</span><span class="pill">WMV</span>
+    </div>
+
+    <h3>Audio files</h3>
+    <div class="pill-row">
+      <span class="pill">MP3</span><span class="pill">WAV</span><span class="pill">M4A</span><span class="pill">OGG</span><span class="pill">FLAC</span><span class="pill">AAC</span>
+    </div>
+
+    <p>Zoom recordings are saved as <strong>MP4</strong> by default. Google Meet recordings saved to Google Drive are also MP4. Both work perfectly — just download the file and upload it to Lectio.</p>
+
+    <hr>
+
+    <h2>Which languages are supported?</h2>
+    <p>Whisper supports over <strong>90 languages</strong> and can auto-detect the language of your recording. Languages with strong support include:</p>
+    <ul>
+      <li>Hebrew (עברית) — including mixed Hebrew/English lectures</li>
+      <li>Arabic (العربية)</li>
+      <li>English</li>
+      <li>Russian (Русский)</li>
+      <li>French, Spanish, German, Italian, Portuguese</li>
+      <li>Japanese, Korean, Chinese (Mandarin)</li>
+      <li>Turkish, Polish, Dutch, and many more</li>
+    </ul>
+    <p>If your recording mixes languages — for example a Hebrew lecture that uses English terminology — Whisper generally handles it well.</p>
+
+    <hr>
+
+    <h2>Tips for better transcription accuracy</h2>
+
+    <h3>Audio quality matters most</h3>
+    <p>Whisper is remarkably robust, but cleaner audio always produces better results. If your recording has a lot of background noise, consider using a free tool like <strong>Audacity</strong> to reduce it before uploading.</p>
+
+    <h3>One speaker at a time is easier than many</h3>
+    <p>Transcription accuracy is highest when there's a single clear speaker. Panel discussions and group meetings with multiple overlapping voices are harder — Whisper will still try, but accuracy may be lower in those sections.</p>
+
+    <h3>Specify the language if you know it</h3>
+    <p>Auto-detection works well for most recordings, but if you know the language in advance, you can set it explicitly in the notebook. This can improve accuracy, especially for shorter recordings.</p>
+
+    <h3>Large files take longer but still work</h3>
+    <p>A 3-hour lecture will take roughly 10–15 minutes. The notebook will show progress — just leave the Colab tab open and come back when it's done.</p>
+
+    <hr>
+
+    <h2>Using your transcript with AI tools</h2>
+    <p>The .txt file Lectio produces is a clean, plain-text transcript — no timestamps, no metadata, just the spoken words. This makes it immediately usable with any AI tool:</p>
+    <ul>
+      <li><strong>ChatGPT or Claude:</strong> Paste the transcript and ask for a summary, key points, a study guide, or answers to specific questions.</li>
+      <li><strong>NotebookLM:</strong> Upload the transcript as a source. NotebookLM will index it so you can ask questions about the lecture directly.</li>
+      <li><strong>Google Docs:</strong> Paste the transcript, then use Docs' built-in AI features to summarize or reformat.</li>
+      <li><strong>Obsidian / Notion:</strong> Drop it into your notes for future reference and search.</li>
+    </ul>
+
+    <hr>
+
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq-item">
+      <div class="faq-q">Is Lectio really free?</div>
+      <div class="faq-a">Yes, completely. It runs on Google Colab's free GPU tier — Google subsidises this for all Google account holders. Lectio itself has no server costs and charges nothing. There's a donate link if you want to support the project, but it's entirely optional.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is my file private?</div>
+      <div class="faq-a">Your file is uploaded directly to your own Google Colab session — not to Lectio's servers (Lectio has no servers). Google deletes the session automatically when it ends. Lectio never sees your file.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Do I need to install anything?</div>
+      <div class="faq-a">No. Everything runs in your browser through Google Colab. The only requirement is a free Google account — which most people already have.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How long does transcription take?</div>
+      <div class="faq-a">Roughly 3–6 minutes per hour of audio on Colab's free GPU. The first time also takes about 2 minutes to install the Whisper model (one-time setup per session).</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What's the maximum file size?</div>
+      <div class="faq-a">Google Colab can handle files up to about 2 GB directly. For larger files, you can connect your Google Drive and load the file from there — the notebook includes instructions.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">How accurate is Whisper compared to other free tools?</div>
+      <div class="faq-a">Whisper large-v2 (the model Lectio uses) consistently outperforms most free alternatives, especially on non-English languages, accented speech, and technical vocabulary. It's the same underlying technology that powers many paid transcription services.</div>
+    </div>
+
+  </div>
+
+  <div class="cta-block">
+    <h2>Try it now —<br><em>it's completely free</em></h2>
+    <p>Upload any audio or video file and get a clean transcript in minutes. No account needed beyond a free Google account.</p>
+    <a href="https://colab.research.google.com/github/YogevShakedMusic/lectio/blob/main/lectio.ipynb" target="_blank" class="btn-primary">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="width:18px;height:18px"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+      Start transcribing — free
+    </a>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Lectio · Made with ☕ by a student</p>
+  <p><a href="index.html">Home</a> · <a href="https://github.com/YogevShakedMusic/lectio" target="_blank">GitHub</a> · <a href="index.html#donate">Donate</a></p>
+</footer>
+
+</body>
+</html>
