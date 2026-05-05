@@ -268,9 +268,20 @@
     .output-grid { max-width: 680px; margin: 0 auto; display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
     @keyframes fadeUp { from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)} }
     @media (max-width: 640px) { nav{padding:.85rem 1.25rem} .nav-actions .btn-ghost{display:none} section{padding:4rem 1.25rem} .output-grid{grid-template-columns:1fr} }
+
+    #mobile-banner { display:none; position:fixed; bottom:0; left:0; right:0; z-index:200; background:var(--ink); color:white; padding:1rem 1.5rem; text-align:center; box-shadow:0 -4px 24px rgba(14,15,17,.25); }
+    #mobile-banner p { font-size:.9rem; line-height:1.5; margin:0; }
+    #mobile-banner strong { color:var(--green-bright); }
+    #mobile-banner-close { position:absolute; top:50%; right:1.25rem; transform:translateY(-50%); background:none; border:none; color:rgba(255,255,255,.5); font-size:1.25rem; cursor:pointer; line-height:1; padding:0.25rem; }
+    #mobile-banner-close:hover { color:white; }
   </style>
 </head>
 <body>
+
+<div id="mobile-banner" role="alert" aria-live="polite">
+  <p>Lectio works best on desktop — <strong>open this page on your computer</strong> to start transcribing.</p>
+  <button id="mobile-banner-close" aria-label="Dismiss">&times;</button>
+</div>
 
 <nav>
   <a href="#" class="nav-logo">
@@ -459,5 +470,15 @@
   <p><a href="https://github.com/YogevShakedMusic/lectio" target="_blank">GitHub</a> · <a href="#donate">Donate</a> · <a href="how-to-transcribe.html">Transcription Guide</a></p>
 </footer>
 
+<script>
+  (function(){
+    var isMobile = /Android|iPhone|iPad|iPod|Opera Mini|IEMobile|WPDesktop/i.test(navigator.userAgent) || (navigator.maxTouchPoints > 1 && window.innerWidth < 1024);
+    if(isMobile){
+      var banner = document.getElementById('mobile-banner');
+      banner.style.display = 'block';
+      document.getElementById('mobile-banner-close').addEventListener('click', function(){ banner.style.display = 'none'; });
+    }
+  })();
+</script>
 </body>
 </html>
